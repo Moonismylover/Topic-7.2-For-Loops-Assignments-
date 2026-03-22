@@ -56,16 +56,13 @@
                 Console.WriteLine("3. Aldworth");
                 Console.WriteLine("4. Aldworth");
                 Console.WriteLine("5. Aldworth");
+                return;
             }
 
             for (int a = 1; a <= 10; a = a + 1)
             {
                 Console.WriteLine($"{a}. {name}");
             }
-
-            //Write a program that prompts the user for a name. Then display that name ten times using a for loop.
-//However, if the name given is "Aldworth", display it only five times.
-// So here's the challenge: write the program using only one if statement (no else) and one for loop.
         }
 
         static void Main(string[] args)
@@ -88,7 +85,6 @@
             Console.WriteLine("~~~~~~ For Loop Fun ~~~~~~");
             Console.WriteLine();
             Assignment3();
-
         }
     }
 }
