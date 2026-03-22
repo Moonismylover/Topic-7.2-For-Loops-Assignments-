@@ -25,13 +25,13 @@
             Console.WriteLine("  x  |  y  ");
             Console.WriteLine("------------");
 
-
             for (int i = -10; i >= -10 && i <= 10; i = i + 2)
             { 
                 Console.Write($"  {i}  ");
-                for (int y = -10 * 2; y <= -10 * 2; y++)
+                for (double y = Math.Pow(i, 2); y <= Math.Pow(i, 2); y++)
                 {
-                    Console.Write($"|  {y}  ");
+                    Console.Write($"  {y}  ");
+                    Console.WriteLine();
                 }
             }
 
@@ -54,6 +54,7 @@
             Assignment1();
 
             Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine();
             Console.WriteLine("~~~~~~ X and Y ~~~~~~");
             Console.WriteLine();
             Assignment2();
