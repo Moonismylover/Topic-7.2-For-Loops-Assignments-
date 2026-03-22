@@ -45,14 +45,17 @@
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Write("Input a name: ");
             Console.ForegroundColor = ConsoleColor.Red;
-            name = Console.ReadLine().ToLower();
+            name = Console.ReadLine().ToUpper();
             Console.ForegroundColor = ConsoleColor.Blue;
 
-            for (int a = 1, a <= 10, a = a + 1)
-            {ole.WriteLine($"")
+            for (int a = 1; a <= 10; a = a + 1)
+            {
+                Console.WriteLine($"{a}. {name}");
+                if (name == "ALDWORTH" && a <= 5)
                 {
-
-                Cons
+                    Console.WriteLine($"{a}. Aldworth");
+                }
+            }
 
             //Write a program that prompts the user for a name. Then display that name ten times using a for loop.
 //However, if the name given is "Aldworth", display it only five times.
@@ -73,6 +76,12 @@
             Console.WriteLine("~~~~~~ X and Y ~~~~~~");
             Console.WriteLine();
             Assignment2();
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine();
+            Console.WriteLine("~~~~~~ For Loop Fun ~~~~~~");
+            Console.WriteLine();
+            Assignment3();
 
         }
     }
