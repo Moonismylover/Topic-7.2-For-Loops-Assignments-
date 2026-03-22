@@ -40,8 +40,19 @@
         {
             Console.Title = "For Loop Fun";
 
+            String name;
+
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write("Input a name: ");
+            Console.ForegroundColor = ConsoleColor.Red;
+            name = Console.ReadLine().ToLower();
             Console.ForegroundColor = ConsoleColor.Blue;
 
+            for (int a = 1, a <= 10, a = a + 1)
+            {ole.WriteLine($"")
+                {
+
+                Cons
 
             //Write a program that prompts the user for a name. Then display that name ten times using a for loop.
 //However, if the name given is "Aldworth", display it only five times.
