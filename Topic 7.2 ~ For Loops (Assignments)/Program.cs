@@ -22,15 +22,15 @@
             Console.Title = "Assignment 2 ~ X & Y";
 
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("  x  |  y  ");
-            Console.WriteLine("------------");
+            Console.WriteLine("\t    x  |  y  ");
+            Console.WriteLine("\t ------------");
 
             for (int i = -10; i >= -10 && i <= 10; i = i + 2)
             { 
-                Console.Write($"  {i}  ");
+                Console.Write($"\t  {i}  ");
                 for (double y = Math.Pow(i, 2); y <= Math.Pow(i, 2); y++)
                 {
-                    Console.Write($"  {y}  ");
+                    Console.Write($"\t  {y}  ");
                     Console.WriteLine();
                 }
             }
