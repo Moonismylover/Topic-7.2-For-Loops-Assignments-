@@ -4,7 +4,7 @@
     {
         public static void Assignment1()
         {
-            Console.Title = "Assignment 1 ~ Counting Down";
+            Console.Title = "Counting Down";
 
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("The COUNTDOWN has began!");
@@ -19,7 +19,7 @@
 
         public static void Assignment2()
         {
-            Console.Title = "Assignment 2 ~ X & Y";
+            Console.Title = "X & Y";
 
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("\t    x  |  y  ");
@@ -34,14 +34,18 @@
                     Console.WriteLine();
                 }
             }
+        }
+
+        public static void Assignment3()
+        {
+            Console.Title = "For Loop Fun";
+
+            Console.ForegroundColor = ConsoleColor.Blue;
 
 
-            // Write another program that uses a for loop.With the loop, make the count
-// variable ‘i’ go from - 10 to 10, counting by 2’s.
-// Inside the body of the loop, make another variable y become the current value of
-// i squared.Then display the current values of both x and y.It should look like this:
-// Adding a TAB in a WriteLine() statement can be done using “\t”. This will
-// help you line up your columns
+            //Write a program that prompts the user for a name. Then display that name ten times using a for loop.
+//However, if the name given is "Aldworth", display it only five times.
+// So here's the challenge: write the program using only one if statement (no else) and one for loop.
         }
 
         static void Main(string[] args)
