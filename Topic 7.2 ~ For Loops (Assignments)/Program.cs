@@ -47,14 +47,20 @@
             Console.ForegroundColor = ConsoleColor.Red;
             name = Console.ReadLine().ToUpper();
             Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine();
+
+            if (name == "ALDWORTH")
+            {
+                Console.WriteLine("1. Aldworth");
+                Console.WriteLine("2. Aldworth");
+                Console.WriteLine("3. Aldworth");
+                Console.WriteLine("4. Aldworth");
+                Console.WriteLine("5. Aldworth");
+            }
 
             for (int a = 1; a <= 10; a = a + 1)
             {
                 Console.WriteLine($"{a}. {name}");
-                if (name == "ALDWORTH" && a <= 5)
-                {
-                    Console.WriteLine($"{a}. Aldworth");
-                }
             }
 
             //Write a program that prompts the user for a name. Then display that name ten times using a for loop.
